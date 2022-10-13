@@ -1,0 +1,64 @@
+﻿生成启动时间为 2022/9/27 10:33:26。
+     1>项目“F:\SerialPortCom\SerialPortCom\SerialPortCom.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\SerialPortCom.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing serialportcom.h...
+         Qt: Untested Windows version 6.2 detected!
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IF:\SerialPortCom\SerialPortCom\GeneratedFiles /IF:\SerialPortCom\SerialPortCom /I. /ID:\Qt\4.8.2_64\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.2_64\include\QtCore /ID:\Qt\4.8.2_64\include\QtGui /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Release\moc_mainwindow.cpp GeneratedFiles\Release\moc_serialportcom.cpp SerialPortParameter.cpp main.cpp mainwindow.cpp serialportcom.cpp
+         moc_mainwindow.cpp
+     1>f:\serialportcom\serialportcom\generatedfiles\release\../../mainwindow.h(4): warning C4068: 未知的杂注
+     1>f:\serialportcom\serialportcom\SerialPortParameter.h(5): warning C4068: 未知的杂注
+     1>f:\serialportcom\serialportcom\serialportcom.h(37): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+     1>f:\serialportcom\serialportcom\serialportcom.h(37): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+         moc_serialportcom.cpp
+     1>f:\serialportcom\serialportcom\SerialPortParameter.h(5): warning C4068: 未知的杂注
+     1>f:\serialportcom\serialportcom\generatedfiles\release\../../serialportcom.h(37): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+     1>f:\serialportcom\serialportcom\generatedfiles\release\../../serialportcom.h(37): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+         SerialPortParameter.cpp
+     1>f:\serialportcom\serialportcom\SerialPortParameter.h(5): warning C4068: 未知的杂注
+         main.cpp
+     1>f:\serialportcom\serialportcom\mainwindow.h(4): warning C4068: 未知的杂注
+     1>f:\serialportcom\serialportcom\SerialPortParameter.h(5): warning C4068: 未知的杂注
+     1>f:\serialportcom\serialportcom\serialportcom.h(37): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+     1>f:\serialportcom\serialportcom\serialportcom.h(37): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+         mainwindow.cpp
+     1>f:\serialportcom\serialportcom\mainwindow.h(4): warning C4068: 未知的杂注
+     1>f:\serialportcom\serialportcom\SerialPortParameter.h(5): warning C4068: 未知的杂注
+     1>f:\serialportcom\serialportcom\serialportcom.h(37): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+     1>f:\serialportcom\serialportcom\serialportcom.h(37): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+         serialportcom.cpp
+     1>f:\serialportcom\serialportcom\SerialPortParameter.h(5): warning C4068: 未知的杂注
+     1>f:\serialportcom\serialportcom\serialportcom.h(37): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+     1>f:\serialportcom\serialportcom\serialportcom.h(37): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+     1>serialportcom.cpp(64): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+     1>serialportcom.cpp(65): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“GoPosition”
+         Generating Code...
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\SerialPortCom\x64\Release\\SerialPortCom.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.2_64\lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\SerialPortCom.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"F:\SerialPortCom\x64\Release\SerialPortCom.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\SerialPortCom\x64\Release\SerialPortCom.lib" /MACHINE:X64 x64\Release\SerialPortCom.res
+         x64\Release\moc_mainwindow.obj
+         x64\Release\moc_qextserialbase.obj
+         x64\Release\moc_qextserialport.obj
+         x64\Release\moc_serialportcom.obj
+         x64\Release\moc_win_qextserialport.obj
+         x64\Release\main.obj
+         x64\Release\mainwindow.obj
+         x64\Release\qextserialbase.obj
+         x64\Release\qextserialport.obj
+         x64\Release\serialportcom.obj
+         x64\Release\SerialPortParameter.obj
+         x64\Release\win_qextserialport.obj
+         SerialPortCom.vcxproj -> F:\SerialPortCom\x64\Release\SerialPortCom.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\SerialPortCom\x64\Release\\SerialPortCom.exe;#1" /manifest x64\Release\SerialPortCom.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\SerialPortCom.unsuccessfulbuild”。
+         正在对“x64\Release\SerialPortCom.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\SerialPortCom\SerialPortCom\SerialPortCom.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.39
